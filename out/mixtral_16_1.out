@@ -1,0 +1,38 @@
+Token has not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: read).
+Your token has been saved to /ephemeral/models/token
+Login successful
+Loading checkpoint shards:   0%|          | 0/19 [00:00<?, ?it/s]Loading checkpoint shards:   5%|▌         | 1/19 [00:00<00:15,  1.18it/s]Loading checkpoint shards:  11%|█         | 2/19 [00:01<00:14,  1.18it/s]Loading checkpoint shards:  16%|█▌        | 3/19 [00:02<00:13,  1.18it/s]Loading checkpoint shards:  21%|██        | 4/19 [00:03<00:12,  1.19it/s]Loading checkpoint shards:  26%|██▋       | 5/19 [00:04<00:11,  1.19it/s]Loading checkpoint shards:  32%|███▏      | 6/19 [00:05<00:10,  1.19it/s]Loading checkpoint shards:  37%|███▋      | 7/19 [00:05<00:10,  1.19it/s]Loading checkpoint shards:  42%|████▏     | 8/19 [00:06<00:09,  1.19it/s]Loading checkpoint shards:  47%|████▋     | 9/19 [00:07<00:08,  1.20it/s]Loading checkpoint shards:  53%|█████▎    | 10/19 [00:08<00:07,  1.20it/s]Loading checkpoint shards:  58%|█████▊    | 11/19 [00:09<00:06,  1.19it/s]Loading checkpoint shards:  63%|██████▎   | 12/19 [00:10<00:05,  1.19it/s]Loading checkpoint shards:  68%|██████▊   | 13/19 [00:10<00:05,  1.19it/s]Loading checkpoint shards:  74%|███████▎  | 14/19 [00:11<00:04,  1.20it/s]Loading checkpoint shards:  79%|███████▉  | 15/19 [00:12<00:03,  1.19it/s]Loading checkpoint shards:  84%|████████▍ | 16/19 [00:13<00:02,  1.19it/s]Loading checkpoint shards:  89%|████████▉ | 17/19 [00:14<00:01,  1.20it/s]Loading checkpoint shards:  95%|█████████▍| 18/19 [00:15<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 19/19 [00:15<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 19/19 [00:15<00:00,  1.20it/s]
+0: summarizing titles:
+	How turtle shells evolved... twice - Judy Cebra Thomas
+1: summarizing titles:
+	Why are fish fish-shaped? - Lauren Sallan
+2: summarizing titles:
+	The surprising reasons animals play dead - Tierney Thys
+3: summarizing titles:
+	Why isn't the world covered in poop? - Eleanor Slade and Paul Manning
+4: summarizing titles:
+	Why are sloths so slow? - Kenny Coogan
+5: summarizing titles:
+	The evolution of animal genitalia - Menno Schilthuizen
+6: summarizing titles:
+	Meet the tardigrade, the toughest animal on Earth - Thomas Boothby
+7: summarizing titles:
+	Why do we harvest horseshoe crab blood? - Elizabeth Cox
+8: summarizing titles:
+	The surprising reason birds sing - Partha P. Mitra
+9: summarizing titles:
+	The life cycle of the butterfly - Franziska Bauer
+10: summarizing titles:
+	Cannibalism in the animal kingdom - Bill Schutt
+11: summarizing titles:
+	A simple way to tell insects apart - Anika Hazra
+12: summarizing titles:
+	Why do animals form swarms? - Maria R. D'Orsogna
+13: summarizing titles:
+	The amazing ways plants defend themselves - Valentin Hammoudi
+14: summarizing titles:
+	The ferocious predatory dinosaurs of Cretaceous Sahara - Nizar Ibrahim
+15: summarizing titles:
+	The three different ways mammals give birth - Kate Slabosky
+Generated 16 summaries at 2712.33 tokens/min in 0:07:47 with batch size 1

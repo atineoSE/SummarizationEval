@@ -1,0 +1,1 @@
+Automatic summarization consists of turning longer input data into a shorter subset, keeping the most important parts

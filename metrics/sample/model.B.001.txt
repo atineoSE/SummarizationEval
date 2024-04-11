@@ -1,0 +1,1 @@
+Automatic summarization is the process of shortening data computationally into a subset of most relevant information

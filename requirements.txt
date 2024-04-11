@@ -1,0 +1,14 @@
+requests
+pandas
+matplotlib
+setuptools
+youtube-transcript-api
+python-dotenv
+torch>=2.0.0; sys_platform == 'linux'
+--extra-index-url https://download.pytorch.org/whl/nightly/cu121
+accelerate
+huggingface-hub
+transformers
+flash_attn
+sentencepiece
+bert-score
