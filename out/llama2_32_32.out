@@ -2,7 +2,7 @@ Token has not been saved to git credential helper. Pass `add_to_git_credential=T
 Token is valid (permission: read).
 Your token has been saved to /ephemeral/models/token
 Login successful
-Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:01<00:22,  1.62s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:03<00:20,  1.59s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:04<00:19,  1.59s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:06<00:17,  1.62s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:07<00:15,  1.59s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:09<00:14,  1.58s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:11<00:12,  1.58s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:12<00:11,  1.58s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:14<00:09,  1.57s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:15<00:07,  1.56s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:17<00:06,  1.57s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:18<00:04,  1.57s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:20<00:03,  1.57s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:22<00:01,  1.56s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:22<00:00,  1.13s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:22<00:00,  1.48s/it]
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:01<00:22,  1.59s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:03<00:20,  1.57s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:04<00:18,  1.57s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:06<00:17,  1.58s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:07<00:15,  1.57s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:09<00:13,  1.55s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:10<00:12,  1.56s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:12<00:11,  1.57s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:14<00:09,  1.56s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:15<00:07,  1.56s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:17<00:06,  1.56s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:18<00:04,  1.58s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:20<00:03,  1.56s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:21<00:01,  1.54s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:21<00:00,  1.12s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:21<00:00,  1.47s/it]
 /home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
   warnings.warn(
 /home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
@@ -40,49 +40,4 @@ Login successful
 	Why do cats act so weird? - Tony Buffington
 	Why is Mount Everest so tall? - Michele Koppes
 	How do schools of fish swim in harmony? - Nathan S. Jacobs
-Traceback (most recent call last):
-  File "/home/ubuntu/apps/SummarizationEval/LLM.py", line 140, in <module>
-    summaries = model.get_all_summaries(df, args.batch_size)
-  File "/home/ubuntu/apps/SummarizationEval/LLM.py", line 116, in get_all_summaries
-    summaries = self.infer(
-  File "/home/ubuntu/apps/SummarizationEval/LLM.py", line 80, in infer
-    output = self.generate_text(input_tokens)
-  File "/home/ubuntu/apps/SummarizationEval/LLM.py", line 67, in generate_text
-    return self.model.generate(
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/generation/utils.py", line 1527, in generate
-    result = self._greedy_search(
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/generation/utils.py", line 2411, in _greedy_search
-    outputs = self(
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
-    output = module._old_forward(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1196, in forward
-    outputs = self.model(
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1016, in forward
-    layer_outputs = decoder_layer(
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
-    output = module._old_forward(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 754, in forward
-    hidden_states = self.mlp(hidden_states)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
-    output = module._old_forward(*args, **kwargs)
-  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 240, in forward
-    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.18 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.90 GiB is free. Process 11708 has 32.81 GiB memory in use. Including non-PyTorch memory, this process has 44.42 GiB memory in use. Of the allocated memory 40.98 GiB is allocated by PyTorch, and 2.95 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Generated 32 summaries at 53.53 tokens/seconds in 0:02:49 with batch size 32
