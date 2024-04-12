@@ -1,0 +1,157 @@
+Token has not been saved to git credential helper. Pass `add_to_git_credential=True` if you want to set the git credential as well.
+Token is valid (permission: read).
+Your token has been saved to /ephemeral/models/token
+Login successful
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:01<00:22,  1.59s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:03<00:20,  1.56s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:04<00:18,  1.56s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:06<00:17,  1.57s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:07<00:15,  1.56s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:09<00:13,  1.55s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:10<00:12,  1.55s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:12<00:10,  1.56s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:14<00:09,  1.55s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:15<00:07,  1.55s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:17<00:06,  1.55s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:18<00:04,  1.56s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:20<00:03,  1.56s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:21<00:01,  1.55s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:21<00:00,  1.12s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:21<00:00,  1.46s/it]
+/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Limiting transcript from 3669 to 3496 tokens to fit context window.
+0: summarizing titles:
+	How turtle shells evolved... twice - Judy Cebra Thomas
+	Why are fish fish-shaped? - Lauren Sallan
+	The surprising reasons animals play dead - Tierney Thys
+	Why isn't the world covered in poop? - Eleanor Slade and Paul Manning
+	Why are sloths so slow? - Kenny Coogan
+	The evolution of animal genitalia - Menno Schilthuizen
+	Meet the tardigrade, the toughest animal on Earth - Thomas Boothby
+	Why do we harvest horseshoe crab blood? - Elizabeth Cox
+	The surprising reason birds sing - Partha P. Mitra
+	The life cycle of the butterfly - Franziska Bauer
+	Cannibalism in the animal kingdom - Bill Schutt
+	A simple way to tell insects apart - Anika Hazra
+	Why do animals form swarms? - Maria R. D'Orsogna
+	The amazing ways plants defend themselves - Valentin Hammoudi
+	The ferocious predatory dinosaurs of Cretaceous Sahara - Nizar Ibrahim
+	The three different ways mammals give birth - Kate Slabosky
+	Why do animals have such different lifespans? - Joao Pedro de Magalhaes
+	How do animals experience pain? - Robyn J. Crook
+	What’s so great about the Great Lakes? - Cheri Dobbs and Jennifer Gabrys
+	Why do we kiss under mistletoe? - Carlos Reif
+	Do we really need pesticides? - Fernan Pérez-Gálvez
+	Why are there so many types of apples? - Theresa Doud
+	How smart are orangutans? - Lu Gao
+	How do animals see in the dark? - Anna Stöckl
+	What is the biggest single-celled organism? - Murry Gans
+	How a single-celled organism almost wiped out life on Earth - Anusuya Willis
+	How North America got its shape - Peter J. Haproff
+	The threat of invasive species - Jennifer Klos
+	Can plants talk to each other? - Richard Karban
+	Why do cats act so weird? - Tony Buffington
+	Why is Mount Everest so tall? - Michele Koppes
+	How do schools of fish swim in harmony? - Nathan S. Jacobs
+	Why are there so many insects? - Murry Gans
+	Why certain naturally occurring wildfires are necessary - Jim Schulz
+	The most lightning-struck place on Earth - Graeme Anderson
+	When will the next mass extinction occur? - Borths, D'Emic, and Pritchard
+	How do we know what color dinosaurs were? - Len Bloch
+	The science of snowflakes - Maruša Bradač
+	Do animals have language? - Michele Bishop
+	How smart are dolphins? - Lori Marino
+	What happens when continents collide? - Juan D. Carrillo
+	How does a jellyfish sting? - Neosha S Kashef
+	How plants tell time - Dasha Savage
+	Why is biodiversity so important? - Kim Preshoff
+	The science of static electricity - Anuradha Bhagwat
+	How do geckos defy gravity? - Eleanor Nelsen
+	Where did Earth’s water come from? - Zachary Metz
+	How parasites change their host's behavior - Jaap de Roode
+	How we think complex cells evolved - Adam Jacobson
+	How do dogs \"see\" with their noses? - Alexandra Horowitz
+	The truth about bats - Amy Wray
+	The hidden worlds within natural history museums - Joshua Drew
+	Why elephants never forget - Alex Gendler
+	Where do genes come from? - Carl Zimmer
+	Feedback loops: How nature gets its rhythms - Anje-Margriet Neutel
+	How do tornadoes form? - James Spann
+	What's hidden among the tallest trees on Earth? - Wendell Oshiro
+	The coelacanth: A living fossil of a fish - Erin Eastwood
+	Inside the ant colony - Deborah M. Gordon
+	A guide to the energy of the Earth - Joshua M. Sneideman
+	How to speak monkey: The language of cotton-top tamarins - Anne Savage
+	Attack of the killer algae - Eric Noel Muñoz
+	How bees help plants have sex - Fernanda S. Valdovinos
+	The colossal consequences of supervolcanoes - Alex Gendler
+	The science of symmetry - Colm Kelleher
+	How tsunamis work - Alex Gendler
+	Nature's smallest factory: The Calvin cycle - Cathy Symington
+	From the top of the food chain down: Rewilding our world - George Monbiot
+	Poison vs. venom: What's the difference? - Rose Eveleth
+	The Pangaea Pop-up - Michael Molina
+	How to fossilize...yourself - Phoebe A. Cohen
+	The popularity, plight and poop of penguins - Dyan deNapoli
+	The loathsome, lethal mosquito - Rose Eveleth
+	Bird migration, a perilous journey - Alyssa Klavans
+	Cicadas: The dormant army beneath your feet - Rose Eveleth
+	The Arctic vs. the Antarctic - Camille Seaman
+	What's below the tip of the iceberg? - Camille Seaman
+	Got seeds? Just add bleach, acid and sandpaper - Mary Koga
+	Myths and misconceptions about evolution - Alex Gendler
+	Vermicomposting: How worms can reduce our waste - Matthew Ross
+	The game-changing amniotic egg - April Tucker
+	Tracking grizzly bears from space - David Laskin
+	Reasons for the seasons - Rebecca Kaplan
+	Why do fingers become pruney? - Mark Changizi
+	The brilliance of bioluminescence - Leslie Kenna
+	How did feathers evolve? - Carl Zimmer
+	Making sense of how life fits together - Bobbi Seleski
+	How Mendel's pea plants helped us understand genetics - Hortensia Jiménez Díaz
+	The simple story of photosynthesis and food - Amanda Ooten
+	Where we get our fresh water - Christiana Z. Peppard
+	Curiosity, discovery and gecko feet - Robert Full
+	How life came to land - Tierney Thys
+	Five fingers of evolution - Paul Andersen
+	The Cockroach Beatbox
+	Evolution in a Big City
+	Symbiosis: A surprising tale of species cooperation - David Gonzales
+	Sex Determination: More Complicated Than You Thought
+	How a fly flies - Michael Dickinson
+	The case of the vanishing honeybees - Emma Bryce
+	Dead stuff: The secret ingredient in our food chain - John C. Moore
+Traceback (most recent call last):
+  File "/home/ubuntu/apps/SummarizationEval/LLM.py", line 139, in <module>
+    summaries = model.get_all_summaries(df, args.batch_size)
+  File "/home/ubuntu/apps/SummarizationEval/LLM.py", line 115, in get_all_summaries
+    summaries = self.infer(
+  File "/home/ubuntu/apps/SummarizationEval/LLM.py", line 80, in infer
+    output = self.generate_text(input_tokens)
+  File "/home/ubuntu/apps/SummarizationEval/LLM.py", line 67, in generate_text
+    return self.model.generate(
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/generation/utils.py", line 1527, in generate
+    result = self._greedy_search(
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/generation/utils.py", line 2411, in _greedy_search
+    outputs = self(
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1196, in forward
+    outputs = self.model(
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1016, in forward
+    layer_outputs = decoder_layer(
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 753, in forward
+    hidden_states = self.post_attention_layernorm(hidden_states)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/home/ubuntu/apps/SummarizationEval/.venv/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 88, in forward
+    variance = hidden_states.pow(2).mean(-1, keepdim=True)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 10.95 GiB. GPU 0 has a total capacity of 79.15 GiB of which 7.91 GiB is free. Including non-PyTorch memory, this process has 71.23 GiB memory in use. Of the allocated memory 55.68 GiB is allocated by PyTorch, and 15.06 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
