@@ -81,15 +81,14 @@ class LLM:
         generations = self.tokenizer.batch_decode(output, skip_special_tokens=True)
         return list(map(lambda o: self.split_output(prompt_template, o), generations))
 
-    def get_tokens_per_min(self, all_summaries, seconds):
-        flattened_summaries = chain(*all_summaries)
+    def get_tokens_per_seconds(self, all_summaries, seconds):
         total_generated_tokens = sum(
-            map(lambda x: len(self.tokenizer.tokenize(x)), flattened_summaries)
+            map(lambda x: len(self.tokenizer.tokenize(x)), all_summaries)
         )
-        tokens_per_min = (total_generated_tokens / seconds) * 60
-        tokens_per_min_str = Decimal(tokens_per_min).quantize(Decimal("0.01"))
+        tokens_per_seconds = total_generated_tokens / seconds
+        tokens_per_seconds_str = Decimal(tokens_per_seconds).quantize(Decimal("0.01"))
 
-        return tokens_per_min_str
+        return tokens_per_seconds_str
 
     def get_all_summarization_prompts(self, df):
         prompts = []
@@ -140,11 +139,11 @@ if __name__ == "__main__":
     summaries = model.get_all_summaries(df, args.batch_size)
     stop_time = time.time()
     elapsed_time = timedelta(seconds=stop_time - start_time)
-    tokens_per_min = model.get_tokens_per_min(summaries, elapsed_time.seconds)
+    tokens_per_seconds = model.get_tokens_per_seconds(summaries, elapsed_time.seconds)
 
     print(
         f"Generated {len(summaries)} summaries at "
-        + f"{tokens_per_min} tokens/min in {str(elapsed_time).split('.')[0]} "
+        + f"{tokens_per_seconds} tokens/seconds in {str(elapsed_time).split('.')[0]} "
         + f"with batch size {args.batch_size}"
     )
 
